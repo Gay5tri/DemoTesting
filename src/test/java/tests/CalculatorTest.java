@@ -38,5 +38,6 @@ public class CalculatorTest {
         int expres=1;
 		int actres=Calculator.divide(50,30);
 		assertEquals(expres,actres);
+		
 	}
 }
