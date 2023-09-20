@@ -37,5 +37,14 @@ public class ConverterTest {
 			assertEquals(exp,act);
 		}
 		
+		@Test
+		public void testmiletokm() {
+			int length=100;
+			double exp=62.1;
+			
+			double act=Converter.mileTokm(length);
+			assertEquals(exp,act,160.934);
+	}
+		
 
 }

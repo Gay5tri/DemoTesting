@@ -19,5 +19,11 @@ public class Converter {
 		int tocelcius=(temp-32)*5/9;
 		return tocelcius;
 	}
+	
+	public static double mileTokm(int distance)
+	{
+		double tokm=distance*1.60934;
+		return tokm;
+	}
 
 }
