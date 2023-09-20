@@ -13,5 +13,11 @@ public class Converter {
 		int toFarhenheit=(temp*9/5)+32;
 		return toFarhenheit;
 	}
+	
+	public static int fToc(int temp)
+	{
+		int tocelcius=(temp-32)*5/9;
+		return tocelcius;
+	}
 
 }

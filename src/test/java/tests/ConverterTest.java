@@ -27,5 +27,15 @@ public class ConverterTest {
 			int act=Converter.cToF(temp);
 			assertEquals(exp,act);
 		}
+		@Test
+		public void testfarTocel()
+		{
+			int temp=122;
+			int exp=50;
+			
+			int act=Converter.fToc(temp);
+			assertEquals(exp,act);
+		}
+		
 
 }
