@@ -1,9 +1,9 @@
 package lib;
 
-public class Newfeature {
+public class newfeature {
 	public static void main(String args[])
 	{
-		System.out.println("Added new class");
+		System.out.println("newly methd added");
 	}
 
 }
